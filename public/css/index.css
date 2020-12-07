@@ -1,208 +1,131 @@
-body, html {
-  margin: 0;
-  scroll-behavior: smooth;
+/* Navbar Styles */
+.custom-navbar {
+    background-color: transparent;
+    position: fixed !important;
+    top: 0;
+    right: 0;
+}
+.custom-navbar-item {
+    font-size: 180%;
+}
+.custom-navbar-link {
+    text-transform: uppercase;
+    font-weight: 900;
+    transition: .15s all;
+    margin-left: 3vw;
+}
+.custom-navbar-link:hover {
+    color: #EA4E5E;
+    cursor: pointer;
+}
+.navbar-nav {
+    text-align: right;
 }
 
-#cookies-popup {
-  z-index: 100000;
-  max-width: 20vw;
-  background-color: rgb(184, 81, 83);
-  opacity: .6;
-  border-radius: 3px;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  display: none;
-  flex-direction: column;
-  transition: .2s all;
+/* Section Styles */
+.full-view-section {
+    height: 100vh;
 }
-#cookies-popup:hover {
-  opacity: 1
+.half-view-section {
+    height: 50vh;
 }
-
-#cookies-popup p {
-  text-align: center;
-  margin: auto;
-  padding: 10px;
-  font-family: "Montserrat", "Open Sans", sans-serif;
-  color: rgb(224, 224, 224);
-  cursor: default;
+.particle-ahead {
+    z-index: 1000;
 }
-.accept-wrap {
-  display: flex;
-  margin: 10px;
+.welcome {
+    background-color: #141617;
 }
-.cookies-accept {
-  font-family: "Montserrat", "Open Sans", sans-serif;
-  color: rgb(31, 31, 31);
-  background-color: rgb(224, 224, 224);
-  font-size: 1.4em;
-  margin: auto;
-  width: 50%;
-  padding: 10px 0;
-  border-radius: 10px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 600;
-  transition: .2s all;
+.equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
 }
-.cookies-accept:hover {
-  cursor: pointer;
-  transform: scale(1.1)
+.image-container {
+    background-color: #EA4E5E;
+    background-image: url(".././imgs/bricks2.jpg");
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+}
+.image-cover {
+    z-index: 100;
+    background-color: #852a33;
+    opacity: 0;
 }
 
-#intro {
-  background-color: #FEFEFE;
-  height: 100vh;
-  display: flex;
+/* Text Styles */
+.default-text {
+    color: #FAF0F0;
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    font-size: 1em;
 }
 
-#showcase {
-  height: 110vh;
-  background-image: url("../imgs/bricks.jpg");
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  display: flex;
+/* Title + Title Text media queries */
+.title-text {
+    font-family: "Yatra One", "Open Sans", cursive;
 }
-
-.showcase-plate {
-  margin: auto;
-  background-color: #FEFEFE;
-  box-shadow: 2px 4px 25px rgba(0, 0, 0, .5);
-  border-radius: 10px;
-  transition: .2s all;
-  display: flex;
-}
-.showcase-container {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-}
-.showcase-title {
-  font-family: "Montserrat", "Open Sans", cursive;
-  font-size: 5em;
-  color: rgba(0, 0, 0, 0.9);
-  padding: 30px;
-  text-transform: uppercase;
-}
-.showcase-title::before {
-  height: 4px;
-  width: 50px;
-  background-color: #b85153;
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  content: '';
-}
-
-.showcase-image {
-  width: 50vh;
-  height: 50vh;
-  transition: .2s all;
-  margin: 50px;
-}
-.showcase-image:hover {
-  box-shadow: 2px 8px 20px rgba(0, 0, 0, .7);
-  transform: translate3D(0, -2px, 0) scale(1.03);
-}
-.showcase-image:hover {
-  box-shadow: 2px 8px 20px rgba(0, 0, 0, .7);
-  transform: translate3D(0, -2px, 0) scale(1.03);
+.red-text {
+    color: #EA4E5E;
 }
 
 
-.centered-text {
-  margin: auto;
-  text-align: center;
+/* Media Styles for Bootstrap */
+@media only screen and (max-width: 576px) {
+    .title-text {
+        font-size: 500%;
+    }
+    .subtitle-text {
+        font-size: 100%;
+    }
+    .nav-link {
+        font-size: 70% !important;
+    }
+}
+@media only screen and (min-width:576px) and (max-width: 768px) {
+    .title-text {
+        font-size: 500%;
+    }
+    .subtitle-text {
+        font-size: 100%;
+    }
+    .nav-link {
+        font-size: 70% !important;
+    }
 }
 
-#about {
-  height: 100vh;
+@media only screen and (min-width:768px) and (max-width: 992px) {
+    .title-text {
+        font-size: 700%;
+    }
+    .subtitle-text {
+        font-size: 120%;
+    }
+    .nav-link {
+        font-size: 85% !important;
+    }
 }
 
-#navigation {
-  overflow: hidden;
-  width: 100%;
-  position: fixed;
-  z-index: 2000;
-}
-
-#navigation a {
-  background-color: #FEFEFE;
-  float: right;
-  color: black;
-  text-align: center;
-  border: 3px solid rgba(0, 0, 0, 0.1);
-  margin: 10px;
-  padding: 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Montserrat", "Open Sans", sans-serif;
-  font-size: 17px;
-  cursor: pointer;
-  transition: .2s all;
-  overflow: hidden;
-}
-
-#navigation a:hover {
-  color: rgba(255, 255, 255, 0.9);
-  background-color: #b85153;
+@media only screen and (min-width:992px) {
+    .title-text {
+        font-size: 1000%;
+    }
+    .subtitle-text {
+        font-size: 140%;
+    }
+    .nav-link {
+        font-size: 100% !important;
+    }
 }
 
 
+/* -- Other Styles -- */
 
-
-.title {
-  font-family: "Yatra One", "Open Sans", cursive;
-  font-size: 10em;
-  line-height: 10px;
-  color: rgba(0, 0, 0, 0.9);
+/* Down button style */
+.custom-down {
+    color: #FAF0F0;
+    transition: .2s all;
 }
-
-.subtitle {
-  font-size: 5em;
-}
-
-.bright-period {
-  color: #b85153;
-}
-
-.scroll-to-next {
-  border: 4px solid #b85153;
-  padding: 30px;
-  cursor: pointer;
-  font-family: "Montserrat", "Open Sans", sans-serif;
-  text-transform: uppercase;
-  font-size: 2em;
-  font-weight: 550;
-  position: relative;
-  text-decoration: none;
-  color: black;
-}
-.scroll-to-next:after {
-  height: 50px;
-  width: 50px;
-  border-right: 4px solid#b85153;
-  border-bottom: 4px solid#b85153;
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -25px;
-  content: '';
-  transform: rotate(45deg);
-  margin-top: -24px;
-}
-.tooltip {
-  position: absolute;
-  margin-top: 10px;
-}
-.tooltip-inner {
-  z-index: 10000;
-  padding: 10px;
-  background-color: #b85153;
-  font-family: "Montserrat", "Open Sans", sans-serif;
-  font-size: 1em;
-  border-radius: 5px;
-  color: #FEFEFE;
+.custom-down:hover {
+    color:  #EA4E5E;
+    cursor: pointer;
 }
