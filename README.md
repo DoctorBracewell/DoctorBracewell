@@ -25,15 +25,6 @@ You can see my projects at my GitHub profile (that's here!) or my website, [brac
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-## 🤝 Get in touch
-<a href="https://brace.dev">
-  <img src="https://img.shields.io/badge/brace.dev-f42a3e?style=for-the-badge" />
-</a>
-<br />
-<a href="mailto:doctorbracewell@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
 ---
 
 [![DrBracewell's GitHub stats](https://github-readme-stats.vercel.app/api?username=DoctorBracewell&count_private=true&show_icons=true&theme=onedark)](https://github.com/anuraghazra/github-readme-stats)
