@@ -24,7 +24,3 @@ You can see my projects at my GitHub profile (that's here!) or my website, [brac
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
----
-
-[![DrBracewell's GitHub stats](https://github-readme-stats.vercel.app/api?username=DoctorBracewell&count_private=true&show_icons=true&theme=onedark)](https://github.com/anuraghazra/github-readme-stats)
