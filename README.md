@@ -1,6 +1,6 @@
 # Hey!
 
-👋 I'm Brace, a full-stack web developer from **London, UK**, specialising in **front-end technologies**,
+👋 I'm Brace, a full-stack web developer from **London, UK**, specialising in **front-end technologies**.
 
 You can see my projects at my GitHub profile (that's here!) or my website, [brace.dev](https://brace.dev).
 
